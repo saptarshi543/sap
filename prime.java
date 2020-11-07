@@ -3,7 +3,7 @@ check if the sum of the number is divisible by 3 or not
 if divisible it is not aprime number
 if not divisible it is a prime number*/
 import java.util.*;
-public class primetwo
+public class prime
 {
 	public static void main(String sap[])//with original logic..
 	{
