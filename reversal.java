@@ -6,7 +6,7 @@ public class reversal
 	{
 		String nes2="";
 		Scanner n=new Scanner(System.in);
-		System.out.println("enter your name..");
+		System.out.println("enter any word or line..");
 		String name=n.nextLine();
 		int ki=name.length();
 		int j;
