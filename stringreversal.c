@@ -2,7 +2,6 @@
 #include <string.h>
 int main()//reversal of a string
 {
-	int len;
 	char user[100];
    printf("enter any string\n");
    gets(user);
