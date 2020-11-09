@@ -3,27 +3,24 @@ public class neon
 {
 	public static void main(String sap[])
 	{
-		int num2,num3,len,i,yt1=0;
-		int next=0;
+		int num2,num3,len,i,pro=0,next=0;
 		String num,hi;
-		String yt="";
 		Scanner nrt=new Scanner(System.in);
-		System.out.println("enter a number");
-		num=nrt.nextLine();
-		num2=Integer.parseInt(num);
-        num3=(num2*num2);
-        hi=String.valueOf(num3);
-        len=hi.length();
+		System.out.println("enter a number");//assuming the input is <..9..>
+		num=nrt.nextLine();//"9"
+		num2=Integer.parseInt(""+num);//converted to> 9
+        num3=(num2*num2);//9*9=81
+        hi=String.valueOf(num3);//"81"
+        len=hi.length();//2
         for (i=0;i<len ;i++ ) {
-        	char ch=hi.charAt(i);
-        	yt=yt+ch;
-        	yt1=Integer.parseInt(yt);
-            next=next+yt1;
+        	char ch=hi.charAt(i);// 1st ch=8,2nd ch=1
+        	pro=Integer.parseInt(""+ch);
+            next=next+pro;
         }
-        if (yt1==num2) {
+        if (next==num2) {//checking block.....
         	System.out.println("it is a neon Number....");
         }
-        else {
+        else {//default block..
         	System.out.println("not a neon number...");
         }
         nrt.close();
