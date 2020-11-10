@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;//WORKING
 public class primethree{
 public static void main(String ds[]){
 		Scanner nrt=new Scanner(System.in);
