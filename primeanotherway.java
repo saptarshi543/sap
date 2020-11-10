@@ -1,8 +1,6 @@
 import java.util.*;
-public class primethree
-{
-	public static void main(String ds[])
-	{
+public class primethree{
+public static void main(String ds[]){
 		Scanner nrt=new Scanner(System.in);
 		System.out.println("enter a Number...");
 		int user=nrt.nextInt();
